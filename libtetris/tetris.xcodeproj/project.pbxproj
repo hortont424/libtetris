@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3554714F0CFA9D7A007F5DD4 /* block_motion.c in Sources */ = {isa = PBXBuildFile; fileRef = 355471460CFA9D7A007F5DD4 /* block_motion.c */; };
+		355471500CFA9D7A007F5DD4 /* block_motion.h in Headers */ = {isa = PBXBuildFile; fileRef = 355471470CFA9D7A007F5DD4 /* block_motion.h */; };
+		355471510CFA9D7A007F5DD4 /* block_operations.c in Sources */ = {isa = PBXBuildFile; fileRef = 355471480CFA9D7A007F5DD4 /* block_operations.c */; };
+		355471520CFA9D7A007F5DD4 /* block_operations.h in Headers */ = {isa = PBXBuildFile; fileRef = 355471490CFA9D7A007F5DD4 /* block_operations.h */; };
+		355471530CFA9D7A007F5DD4 /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = 3554714A0CFA9D7A007F5DD4 /* blocks.c */; };
+		355471540CFA9D7A007F5DD4 /* blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 3554714B0CFA9D7A007F5DD4 /* blocks.h */; };
+		355471550CFA9D7A007F5DD4 /* game.c in Sources */ = {isa = PBXBuildFile; fileRef = 3554714C0CFA9D7A007F5DD4 /* game.c */; };
+		355471560CFA9D7A007F5DD4 /* game.h in Headers */ = {isa = PBXBuildFile; fileRef = 3554714D0CFA9D7A007F5DD4 /* game.h */; };
+		355471570CFA9D7A007F5DD4 /* tetris.h in Headers */ = {isa = PBXBuildFile; fileRef = 3554714E0CFA9D7A007F5DD4 /* tetris.h */; };
+		355471630CFA9E88007F5DD4 /* libglib-2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 355471600CFA9E88007F5DD4 /* libglib-2.0.dylib */; };
+		355471640CFA9E88007F5DD4 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 355471610CFA9E88007F5DD4 /* libiconv.dylib */; };
+		355471650CFA9E88007F5DD4 /* libintl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 355471620CFA9E88007F5DD4 /* libintl.dylib */; };
+		3596DCD80CFB9C9100523E0B /* libglib-2.0.la in Frameworks */ = {isa = PBXBuildFile; fileRef = 3596DCD50CFB9C8000523E0B /* libglib-2.0.la */; };
+		3596DCD90CFB9C9100523E0B /* libiconv.la in Frameworks */ = {isa = PBXBuildFile; fileRef = 3596DCD60CFB9C8000523E0B /* libiconv.la */; };
+		3596DCDA0CFB9C9100523E0B /* libintl.la in Frameworks */ = {isa = PBXBuildFile; fileRef = 3596DCD70CFB9C8000523E0B /* libintl.la */; };
+		35ABA2E60CFB9B6F00D7BFA3 /* block_motion.h in Headers */ = {isa = PBXBuildFile; fileRef = 355471470CFA9D7A007F5DD4 /* block_motion.h */; };
+		35ABA2E70CFB9B6F00D7BFA3 /* block_operations.h in Headers */ = {isa = PBXBuildFile; fileRef = 355471490CFA9D7A007F5DD4 /* block_operations.h */; };
+		35ABA2E80CFB9B6F00D7BFA3 /* blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 3554714B0CFA9D7A007F5DD4 /* blocks.h */; };
+		35ABA2E90CFB9B6F00D7BFA3 /* game.h in Headers */ = {isa = PBXBuildFile; fileRef = 3554714D0CFA9D7A007F5DD4 /* game.h */; };
+		35ABA2EA0CFB9B6F00D7BFA3 /* tetris.h in Headers */ = {isa = PBXBuildFile; fileRef = 3554714E0CFA9D7A007F5DD4 /* tetris.h */; };
+		35ABA2EB0CFB9B7700D7BFA3 /* block_motion.c in Sources */ = {isa = PBXBuildFile; fileRef = 355471460CFA9D7A007F5DD4 /* block_motion.c */; };
+		35ABA2EC0CFB9B7700D7BFA3 /* block_operations.c in Sources */ = {isa = PBXBuildFile; fileRef = 355471480CFA9D7A007F5DD4 /* block_operations.c */; };
+		35ABA2ED0CFB9B7700D7BFA3 /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = 3554714A0CFA9D7A007F5DD4 /* blocks.c */; };
+		35ABA2EE0CFB9B7700D7BFA3 /* game.c in Sources */ = {isa = PBXBuildFile; fileRef = 3554714C0CFA9D7A007F5DD4 /* game.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		355471460CFA9D7A007F5DD4 /* block_motion.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = block_motion.c; sourceTree = "<group>"; };
+		355471470CFA9D7A007F5DD4 /* block_motion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = block_motion.h; sourceTree = "<group>"; };
+		355471480CFA9D7A007F5DD4 /* block_operations.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = block_operations.c; sourceTree = "<group>"; };
+		355471490CFA9D7A007F5DD4 /* block_operations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = block_operations.h; sourceTree = "<group>"; };
+		3554714A0CFA9D7A007F5DD4 /* blocks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blocks.c; sourceTree = "<group>"; };
+		3554714B0CFA9D7A007F5DD4 /* blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blocks.h; sourceTree = "<group>"; };
+		3554714C0CFA9D7A007F5DD4 /* game.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = game.c; sourceTree = "<group>"; };
+		3554714D0CFA9D7A007F5DD4 /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
+		3554714E0CFA9D7A007F5DD4 /* tetris.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tetris.h; sourceTree = "<group>"; };
+		355471600CFA9E88007F5DD4 /* libglib-2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libglib-2.0.dylib"; path = "/opt/local/lib/libglib-2.0.dylib"; sourceTree = "<absolute>"; };
+		355471610CFA9E88007F5DD4 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = /opt/local/lib/libiconv.dylib; sourceTree = "<absolute>"; };
+		355471620CFA9E88007F5DD4 /* libintl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libintl.dylib; path = /opt/local/lib/libintl.dylib; sourceTree = "<absolute>"; };
+		3596DCD50CFB9C8000523E0B /* libglib-2.0.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "libglib-2.0.la"; path = "/opt/local/lib/libglib-2.0.la"; sourceTree = "<absolute>"; };
+		3596DCD60CFB9C8000523E0B /* libiconv.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = libiconv.la; path = /opt/local/lib/libiconv.la; sourceTree = "<absolute>"; };
+		3596DCD70CFB9C8000523E0B /* libintl.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = libintl.la; path = /opt/local/lib/libintl.la; sourceTree = "<absolute>"; };
+		35ABA2DF0CFB9B5100D7BFA3 /* libtetris-static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libtetris-static.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AAC0630554660B00DB518D /* libtetris.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtetris.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35ABA2DD0CFB9B5100D7BFA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3596DCD80CFB9C9100523E0B /* libglib-2.0.la in Frameworks */,
+				3596DCD90CFB9C9100523E0B /* libiconv.la in Frameworks */,
+				3596DCDA0CFB9C9100523E0B /* libintl.la in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D289988505E68E00004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355471630CFA9E88007F5DD4 /* libglib-2.0.dylib in Frameworks */,
+				355471640CFA9E88007F5DD4 /* libiconv.dylib in Frameworks */,
+				355471650CFA9E88007F5DD4 /* libintl.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* tetris */ = {
+			isa = PBXGroup;
+			children = (
+				3596DCD50CFB9C8000523E0B /* libglib-2.0.la */,
+				3596DCD60CFB9C8000523E0B /* libiconv.la */,
+				3596DCD70CFB9C8000523E0B /* libintl.la */,
+				355471600CFA9E88007F5DD4 /* libglib-2.0.dylib */,
+				355471610CFA9E88007F5DD4 /* libiconv.dylib */,
+				355471620CFA9E88007F5DD4 /* libintl.dylib */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = tetris;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				355471460CFA9D7A007F5DD4 /* block_motion.c */,
+				355471470CFA9D7A007F5DD4 /* block_motion.h */,
+				355471480CFA9D7A007F5DD4 /* block_operations.c */,
+				355471490CFA9D7A007F5DD4 /* block_operations.h */,
+				3554714A0CFA9D7A007F5DD4 /* blocks.c */,
+				3554714B0CFA9D7A007F5DD4 /* blocks.h */,
+				3554714C0CFA9D7A007F5DD4 /* game.c */,
+				3554714D0CFA9D7A007F5DD4 /* game.h */,
+				3554714E0CFA9D7A007F5DD4 /* tetris.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC0630554660B00DB518D /* libtetris.dylib */,
+				35ABA2DF0CFB9B5100D7BFA3 /* libtetris-static.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		35ABA2DB0CFB9B5100D7BFA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35ABA2E60CFB9B6F00D7BFA3 /* block_motion.h in Headers */,
+				35ABA2E70CFB9B6F00D7BFA3 /* block_operations.h in Headers */,
+				35ABA2E80CFB9B6F00D7BFA3 /* blocks.h in Headers */,
+				35ABA2E90CFB9B6F00D7BFA3 /* game.h in Headers */,
+				35ABA2EA0CFB9B6F00D7BFA3 /* tetris.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC0600554660B00DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355471500CFA9D7A007F5DD4 /* block_motion.h in Headers */,
+				355471520CFA9D7A007F5DD4 /* block_operations.h in Headers */,
+				355471540CFA9D7A007F5DD4 /* blocks.h in Headers */,
+				355471560CFA9D7A007F5DD4 /* game.h in Headers */,
+				355471570CFA9D7A007F5DD4 /* tetris.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		35ABA2DE0CFB9B5100D7BFA3 /* tetris-static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35ABA2FA0CFB9B8C00D7BFA3 /* Build configuration list for PBXNativeTarget "tetris-static" */;
+			buildPhases = (
+				35ABA2DB0CFB9B5100D7BFA3 /* Headers */,
+				35ABA2DC0CFB9B5100D7BFA3 /* Sources */,
+				35ABA2DD0CFB9B5100D7BFA3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tetris-static";
+			productName = "tetris-static";
+			productReference = 35ABA2DF0CFB9B5100D7BFA3 /* libtetris-static.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D2AAC0620554660B00DB518D /* tetris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "tetris" */;
+			buildPhases = (
+				D2AAC0600554660B00DB518D /* Headers */,
+				D2AAC0610554660B00DB518D /* Sources */,
+				D289988505E68E00004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tetris;
+			productName = tetris;
+			productReference = D2AAC0630554660B00DB518D /* libtetris.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "tetris" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* tetris */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC0620554660B00DB518D /* tetris */,
+				35ABA2DE0CFB9B5100D7BFA3 /* tetris-static */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35ABA2DC0CFB9B5100D7BFA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35ABA2EB0CFB9B7700D7BFA3 /* block_motion.c in Sources */,
+				35ABA2EC0CFB9B7700D7BFA3 /* block_operations.c in Sources */,
+				35ABA2ED0CFB9B7700D7BFA3 /* blocks.c in Sources */,
+				35ABA2EE0CFB9B7700D7BFA3 /* game.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC0610554660B00DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3554714F0CFA9D7A007F5DD4 /* block_motion.c in Sources */,
+				355471510CFA9D7A007F5DD4 /* block_operations.c in Sources */,
+				355471530CFA9D7A007F5DD4 /* blocks.c in Sources */,
+				355471550CFA9D7A007F5DD4 /* game.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB914B08733D8E0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					/opt/local/lib,
+				);
+				PRODUCT_NAME = tetris;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB914C08733D8E0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					/opt/local/lib,
+				);
+				PRODUCT_NAME = tetris;
+			};
+			name = Release;
+		};
+		1DEB914F08733D8E0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					"/opt/local/lib/glib-2.0/include",
+					"/opt/local/include/glib-2.0",
+				);
+				LIBRARY_SEARCH_PATHS = /opt/local/lib;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		1DEB915008733D8E0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					"/opt/local/lib/glib-2.0/include",
+					"/opt/local/include/glib-2.0",
+				);
+				LIBRARY_SEARCH_PATHS = /opt/local/lib;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+		35ABA2E00CFB9B5100D7BFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "tetris-static";
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		35ABA2E10CFB9B5100D7BFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "tetris-static";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "tetris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB914B08733D8E0010E9CD /* Debug */,
+				1DEB914C08733D8E0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "tetris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB914F08733D8E0010E9CD /* Debug */,
+				1DEB915008733D8E0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35ABA2FA0CFB9B8C00D7BFA3 /* Build configuration list for PBXNativeTarget "tetris-static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35ABA2E00CFB9B5100D7BFA3 /* Debug */,
+				35ABA2E10CFB9B5100D7BFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

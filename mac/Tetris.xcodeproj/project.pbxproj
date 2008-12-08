@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		358695700CFB95BD00CBDB8D /* libglib-2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 358694550CFB951700CBDB8D /* libglib-2.0.dylib */; };
+		358695710CFB95BD00CBDB8D /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 358694560CFB951700CBDB8D /* libiconv.dylib */; };
+		358695720CFB95BD00CBDB8D /* libintl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 358694570CFB951700CBDB8D /* libintl.dylib */; };
+		358695730CFB95BD00CBDB8D /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358694490CFB94F100CBDB8D /* AppKit.framework */; };
+		358695740CFB95BD00CBDB8D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3586944A0CFB94F100CBDB8D /* Cocoa.framework */; };
+		358695750CFB95BD00CBDB8D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3586944B0CFB94F100CBDB8D /* CoreFoundation.framework */; };
+		358695760CFB95BD00CBDB8D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3586944C0CFB94F100CBDB8D /* QuartzCore.framework */; };
+		358695790CFB95D200CBDB8D /* ATAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3586942E0CFB942B00CBDB8D /* ATAnimation.m */; };
+		3586957B0CFB95D200CBDB8D /* ATAnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 358694300CFB942B00CBDB8D /* ATAnimationGroup.m */; };
+		358695800CFB95D200CBDB8D /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 358694230CFB941F00CBDB8D /* Controller.m */; };
+		358695830CFB95D200CBDB8D /* ImageUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 358694320CFB942B00CBDB8D /* ImageUtilities.m */; };
+		358695850CFB95D200CBDB8D /* LCDCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 358694340CFB942B00CBDB8D /* LCDCell.m */; };
+		358695870CFB95D200CBDB8D /* LCDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 358694370CFB942B00CBDB8D /* LCDView.m */; };
+		358695890CFB95D200CBDB8D /* NSImage-Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 358694390CFB942B00CBDB8D /* NSImage-Extensions.m */; };
+		3586958C0CFB95D200CBDB8D /* TetrisBlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 358694270CFB941F00CBDB8D /* TetrisBlockView.m */; };
+		3586958E0CFB95D200CBDB8D /* TetrisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 358694250CFB941F00CBDB8D /* TetrisView.m */; };
+		358695900CFB95D200CBDB8D /* TetrisWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3586942A0CFB941F00CBDB8D /* TetrisWindow.m */; };
+		358695A30CFB96A200CBDB8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 358694240CFB941F00CBDB8D /* main.m */; };
+		358695D30CFB982900CBDB8D /* LCDElementsLetter26.tif in Resources */ = {isa = PBXBuildFile; fileRef = 358694350CFB942B00CBDB8D /* LCDElementsLetter26.tif */; };
+		358695D40CFB982900CBDB8D /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 3586943A0CFB943900CBDB8D /* MainMenu.nib */; };
+		358695D50CFB982900CBDB8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3586943C0CFB943900CBDB8D /* InfoPlist.strings */; };
+		358C213B0D002A6A00E4ADC8 /* TetrisTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 358C213A0D002A6A00E4ADC8 /* TetrisTheme.m */; };
+		3596FD890D05138B00D7BF37 /* AppleRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 3596FD7C0D05138B00D7BF37 /* AppleRemote.m */; };
+		3596FD8A0D05138B00D7BF37 /* GlobalKeyboardDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3596FD7E0D05138B00D7BF37 /* GlobalKeyboardDevice.m */; };
+		3596FD8B0D05138B00D7BF37 /* HIDRemoteControlDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3596FD800D05138B00D7BF37 /* HIDRemoteControlDevice.m */; };
+		3596FD8C0D05138B00D7BF37 /* KeyspanFrontRowControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3596FD820D05138B00D7BF37 /* KeyspanFrontRowControl.m */; };
+		3596FD8D0D05138B00D7BF37 /* MultiClickRemoteBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 3596FD840D05138B00D7BF37 /* MultiClickRemoteBehavior.m */; };
+		3596FD8E0D05138B00D7BF37 /* RemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3596FD860D05138B00D7BF37 /* RemoteControl.m */; };
+		3596FD8F0D05138B00D7BF37 /* RemoteControlContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3596FD880D05138B00D7BF37 /* RemoteControlContainer.m */; };
+		3596FD920D0513A800D7BF37 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3596FD910D0513A800D7BF37 /* IOKit.framework */; };
+		3596FD960D0517F800D7BF37 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3596FD940D0517F800D7BF37 /* Carbon.framework */; };
+		3596FD970D0517F800D7BF37 /* System.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3596FD950D0517F800D7BF37 /* System.framework */; };
+		359A78950D06475100841CB0 /* WiiRemote.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 359A78940D06475100841CB0 /* WiiRemote.framework */; };
+		359A78B90D0648D100841CB0 /* WiiRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359A78940D06475100841CB0 /* WiiRemote.framework */; };
+		35EF47910D25C6E8003FEB90 /* libtetris-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35EF47900D25C6E8003FEB90 /* libtetris-static.a */; };
+		35EF480C0D25CAF3003FEB90 /* CTGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EF48010D25CAF3003FEB90 /* CTGradient.m */; };
+		35EF480D0D25CAF3003FEB90 /* SRCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EF48030D25CAF3003FEB90 /* SRCommon.m */; };
+		35EF480E0D25CAF3003FEB90 /* SRKeyCodeTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EF48050D25CAF3003FEB90 /* SRKeyCodeTransformer.m */; };
+		35EF480F0D25CAF3003FEB90 /* SRRecorderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EF48070D25CAF3003FEB90 /* SRRecorderCell.m */; };
+		35EF48100D25CAF3003FEB90 /* SRRecorderControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EF48090D25CAF3003FEB90 /* SRRecorderControl.m */; };
+		35EF48110D25CAF3003FEB90 /* SRValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EF480B0D25CAF3003FEB90 /* SRValidator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		358695BB0CFB973900CBDB8D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				359A78950D06475100841CB0 /* WiiRemote.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		358694220CFB941F00CBDB8D /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		358694230CFB941F00CBDB8D /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		358694240CFB941F00CBDB8D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		358694250CFB941F00CBDB8D /* TetrisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TetrisView.m; sourceTree = "<group>"; };
+		358694260CFB941F00CBDB8D /* TetrisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TetrisView.h; sourceTree = "<group>"; };
+		358694270CFB941F00CBDB8D /* TetrisBlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TetrisBlockView.m; sourceTree = "<group>"; };
+		358694280CFB941F00CBDB8D /* TetrisBlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TetrisBlockView.h; sourceTree = "<group>"; };
+		358694290CFB941F00CBDB8D /* TetrisWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TetrisWindow.h; sourceTree = "<group>"; };
+		3586942A0CFB941F00CBDB8D /* TetrisWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TetrisWindow.m; sourceTree = "<group>"; };
+		3586942D0CFB942B00CBDB8D /* ATAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATAnimation.h; sourceTree = "<group>"; };
+		3586942E0CFB942B00CBDB8D /* ATAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATAnimation.m; sourceTree = "<group>"; };
+		3586942F0CFB942B00CBDB8D /* ATAnimationGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATAnimationGroup.h; sourceTree = "<group>"; };
+		358694300CFB942B00CBDB8D /* ATAnimationGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATAnimationGroup.m; sourceTree = "<group>"; };
+		358694310CFB942B00CBDB8D /* ImageUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtilities.h; sourceTree = "<group>"; };
+		358694320CFB942B00CBDB8D /* ImageUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtilities.m; sourceTree = "<group>"; };
+		358694330CFB942B00CBDB8D /* LCDCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCDCell.h; sourceTree = "<group>"; };
+		358694340CFB942B00CBDB8D /* LCDCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCDCell.m; sourceTree = "<group>"; };
+		358694350CFB942B00CBDB8D /* LCDElementsLetter26.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = LCDElementsLetter26.tif; path = lcdview/LCDElementsLetter26.tif; sourceTree = "<group>"; };
+		358694360CFB942B00CBDB8D /* LCDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCDView.h; sourceTree = "<group>"; };
+		358694370CFB942B00CBDB8D /* LCDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCDView.m; sourceTree = "<group>"; };
+		358694380CFB942B00CBDB8D /* NSImage-Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage-Extensions.h"; sourceTree = "<group>"; };
+		358694390CFB942B00CBDB8D /* NSImage-Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage-Extensions.m"; sourceTree = "<group>"; };
+		3586943B0CFB943900CBDB8D /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		3586943D0CFB943900CBDB8D /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3586943E0CFB944C00CBDB8D /* blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = blocks.h; path = ../libtetris/blocks.h; sourceTree = SOURCE_ROOT; };
+		3586943F0CFB944C00CBDB8D /* block_motion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = block_motion.h; path = ../libtetris/block_motion.h; sourceTree = SOURCE_ROOT; };
+		358694400CFB944C00CBDB8D /* block_operations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = block_operations.h; path = ../libtetris/block_operations.h; sourceTree = SOURCE_ROOT; };
+		358694410CFB944C00CBDB8D /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = game.h; path = ../libtetris/game.h; sourceTree = SOURCE_ROOT; };
+		358694420CFB944C00CBDB8D /* tetris.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tetris.h; path = ../libtetris/tetris.h; sourceTree = SOURCE_ROOT; };
+		358694490CFB94F100CBDB8D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		3586944A0CFB94F100CBDB8D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		3586944B0CFB94F100CBDB8D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		3586944C0CFB94F100CBDB8D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		358694550CFB951700CBDB8D /* libglib-2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libglib-2.0.dylib"; path = "/opt/local/lib/libglib-2.0.dylib"; sourceTree = "<absolute>"; };
+		358694560CFB951700CBDB8D /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = /opt/local/lib/libiconv.dylib; sourceTree = "<absolute>"; };
+		358694570CFB951700CBDB8D /* libintl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libintl.dylib; path = /opt/local/lib/libintl.dylib; sourceTree = "<absolute>"; };
+		3586945C0CFB952B00CBDB8D /* Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3586945F0CFB952B00CBDB8D /* Tetris-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tetris-Info.plist"; sourceTree = "<group>"; };
+		358C21390D002A6A00E4ADC8 /* TetrisTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TetrisTheme.h; sourceTree = "<group>"; };
+		358C213A0D002A6A00E4ADC8 /* TetrisTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TetrisTheme.m; sourceTree = "<group>"; };
+		3596FD7B0D05138B00D7BF37 /* AppleRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleRemote.h; sourceTree = "<group>"; };
+		3596FD7C0D05138B00D7BF37 /* AppleRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleRemote.m; sourceTree = "<group>"; };
+		3596FD7D0D05138B00D7BF37 /* GlobalKeyboardDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalKeyboardDevice.h; sourceTree = "<group>"; };
+		3596FD7E0D05138B00D7BF37 /* GlobalKeyboardDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalKeyboardDevice.m; sourceTree = "<group>"; };
+		3596FD7F0D05138B00D7BF37 /* HIDRemoteControlDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDRemoteControlDevice.h; sourceTree = "<group>"; };
+		3596FD800D05138B00D7BF37 /* HIDRemoteControlDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDRemoteControlDevice.m; sourceTree = "<group>"; };
+		3596FD810D05138B00D7BF37 /* KeyspanFrontRowControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyspanFrontRowControl.h; sourceTree = "<group>"; };
+		3596FD820D05138B00D7BF37 /* KeyspanFrontRowControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyspanFrontRowControl.m; sourceTree = "<group>"; };
+		3596FD830D05138B00D7BF37 /* MultiClickRemoteBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiClickRemoteBehavior.h; sourceTree = "<group>"; };
+		3596FD840D05138B00D7BF37 /* MultiClickRemoteBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiClickRemoteBehavior.m; sourceTree = "<group>"; };
+		3596FD850D05138B00D7BF37 /* RemoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteControl.h; sourceTree = "<group>"; };
+		3596FD860D05138B00D7BF37 /* RemoteControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteControl.m; sourceTree = "<group>"; };
+		3596FD870D05138B00D7BF37 /* RemoteControlContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteControlContainer.h; sourceTree = "<group>"; };
+		3596FD880D05138B00D7BF37 /* RemoteControlContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteControlContainer.m; sourceTree = "<group>"; };
+		3596FD910D0513A800D7BF37 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		3596FD940D0517F800D7BF37 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		3596FD950D0517F800D7BF37 /* System.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = System.framework; path = /System/Library/Frameworks/System.framework; sourceTree = "<absolute>"; };
+		359A78940D06475100841CB0 /* WiiRemote.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WiiRemote.framework; sourceTree = "<group>"; };
+		35EF47900D25C6E8003FEB90 /* libtetris-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libtetris-static.a"; path = "../../libtetris-static.a"; sourceTree = SOURCE_ROOT; };
+		35EF48000D25CAF3003FEB90 /* CTGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGradient.h; sourceTree = "<group>"; };
+		35EF48010D25CAF3003FEB90 /* CTGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGradient.m; sourceTree = "<group>"; };
+		35EF48020D25CAF3003FEB90 /* SRCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCommon.h; sourceTree = "<group>"; };
+		35EF48030D25CAF3003FEB90 /* SRCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCommon.m; sourceTree = "<group>"; };
+		35EF48040D25CAF3003FEB90 /* SRKeyCodeTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRKeyCodeTransformer.h; sourceTree = "<group>"; };
+		35EF48050D25CAF3003FEB90 /* SRKeyCodeTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRKeyCodeTransformer.m; sourceTree = "<group>"; };
+		35EF48060D25CAF3003FEB90 /* SRRecorderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRecorderCell.h; sourceTree = "<group>"; };
+		35EF48070D25CAF3003FEB90 /* SRRecorderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRecorderCell.m; sourceTree = "<group>"; };
+		35EF48080D25CAF3003FEB90 /* SRRecorderControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRecorderControl.h; sourceTree = "<group>"; };
+		35EF48090D25CAF3003FEB90 /* SRRecorderControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRecorderControl.m; sourceTree = "<group>"; };
+		35EF480A0D25CAF3003FEB90 /* SRValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRValidator.h; sourceTree = "<group>"; };
+		35EF480B0D25CAF3003FEB90 /* SRValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRValidator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3586945A0CFB952B00CBDB8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35EF47910D25C6E8003FEB90 /* libtetris-static.a in Frameworks */,
+				359A78B90D0648D100841CB0 /* WiiRemote.framework in Frameworks */,
+				358695700CFB95BD00CBDB8D /* libglib-2.0.dylib in Frameworks */,
+				358695710CFB95BD00CBDB8D /* libiconv.dylib in Frameworks */,
+				358695720CFB95BD00CBDB8D /* libintl.dylib in Frameworks */,
+				358695730CFB95BD00CBDB8D /* AppKit.framework in Frameworks */,
+				358695740CFB95BD00CBDB8D /* Cocoa.framework in Frameworks */,
+				358695750CFB95BD00CBDB8D /* CoreFoundation.framework in Frameworks */,
+				358695760CFB95BD00CBDB8D /* QuartzCore.framework in Frameworks */,
+				3596FD920D0513A800D7BF37 /* IOKit.framework in Frameworks */,
+				3596FD960D0517F800D7BF37 /* Carbon.framework in Frameworks */,
+				3596FD970D0517F800D7BF37 /* System.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		353E9F840CFB9349007ED77D = {
+			isa = PBXGroup;
+			children = (
+				35EF47900D25C6E8003FEB90 /* libtetris-static.a */,
+				358694470CFB94BD00CBDB8D /* Libraries */,
+				35EF47FF0D25CAF3003FEB90 /* ShortcutRecorder */,
+				358694450CFB948F00CBDB8D /* Resources */,
+				3596FD7A0D05138B00D7BF37 /* remote */,
+				358694440CFB948300CBDB8D /* libtetris */,
+				3586942C0CFB942B00CBDB8D /* lcdview */,
+				358694460CFB949C00CBDB8D /* Classes */,
+				358694240CFB941F00CBDB8D /* main.m */,
+				3586945D0CFB952B00CBDB8D /* Products */,
+				3586945F0CFB952B00CBDB8D /* Tetris-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		3586942C0CFB942B00CBDB8D /* lcdview */ = {
+			isa = PBXGroup;
+			children = (
+				3586942D0CFB942B00CBDB8D /* ATAnimation.h */,
+				3586942E0CFB942B00CBDB8D /* ATAnimation.m */,
+				3586942F0CFB942B00CBDB8D /* ATAnimationGroup.h */,
+				358694300CFB942B00CBDB8D /* ATAnimationGroup.m */,
+				358694310CFB942B00CBDB8D /* ImageUtilities.h */,
+				358694320CFB942B00CBDB8D /* ImageUtilities.m */,
+				358694330CFB942B00CBDB8D /* LCDCell.h */,
+				358694340CFB942B00CBDB8D /* LCDCell.m */,
+				358694360CFB942B00CBDB8D /* LCDView.h */,
+				358694370CFB942B00CBDB8D /* LCDView.m */,
+				358694380CFB942B00CBDB8D /* NSImage-Extensions.h */,
+				358694390CFB942B00CBDB8D /* NSImage-Extensions.m */,
+			);
+			path = lcdview;
+			sourceTree = "<group>";
+		};
+		358694440CFB948300CBDB8D /* libtetris */ = {
+			isa = PBXGroup;
+			children = (
+				358694420CFB944C00CBDB8D /* tetris.h */,
+				3586943E0CFB944C00CBDB8D /* blocks.h */,
+				3586943F0CFB944C00CBDB8D /* block_motion.h */,
+				358694400CFB944C00CBDB8D /* block_operations.h */,
+				358694410CFB944C00CBDB8D /* game.h */,
+			);
+			name = libtetris;
+			sourceTree = "<group>";
+		};
+		358694450CFB948F00CBDB8D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				358694350CFB942B00CBDB8D /* LCDElementsLetter26.tif */,
+				3586943A0CFB943900CBDB8D /* MainMenu.nib */,
+				3586943C0CFB943900CBDB8D /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		358694460CFB949C00CBDB8D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				358C21390D002A6A00E4ADC8 /* TetrisTheme.h */,
+				358C213A0D002A6A00E4ADC8 /* TetrisTheme.m */,
+				358694220CFB941F00CBDB8D /* Controller.h */,
+				358694230CFB941F00CBDB8D /* Controller.m */,
+				358694260CFB941F00CBDB8D /* TetrisView.h */,
+				358694250CFB941F00CBDB8D /* TetrisView.m */,
+				358694280CFB941F00CBDB8D /* TetrisBlockView.h */,
+				358694270CFB941F00CBDB8D /* TetrisBlockView.m */,
+				358694290CFB941F00CBDB8D /* TetrisWindow.h */,
+				3586942A0CFB941F00CBDB8D /* TetrisWindow.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		358694470CFB94BD00CBDB8D /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				359A78940D06475100841CB0 /* WiiRemote.framework */,
+				3596FD940D0517F800D7BF37 /* Carbon.framework */,
+				3596FD950D0517F800D7BF37 /* System.framework */,
+				3596FD910D0513A800D7BF37 /* IOKit.framework */,
+				358694550CFB951700CBDB8D /* libglib-2.0.dylib */,
+				358694560CFB951700CBDB8D /* libiconv.dylib */,
+				358694570CFB951700CBDB8D /* libintl.dylib */,
+				358694490CFB94F100CBDB8D /* AppKit.framework */,
+				3586944A0CFB94F100CBDB8D /* Cocoa.framework */,
+				3586944B0CFB94F100CBDB8D /* CoreFoundation.framework */,
+				3586944C0CFB94F100CBDB8D /* QuartzCore.framework */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		3586945D0CFB952B00CBDB8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3586945C0CFB952B00CBDB8D /* Tetris.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3596FD7A0D05138B00D7BF37 /* remote */ = {
+			isa = PBXGroup;
+			children = (
+				3596FD7B0D05138B00D7BF37 /* AppleRemote.h */,
+				3596FD7C0D05138B00D7BF37 /* AppleRemote.m */,
+				3596FD7D0D05138B00D7BF37 /* GlobalKeyboardDevice.h */,
+				3596FD7E0D05138B00D7BF37 /* GlobalKeyboardDevice.m */,
+				3596FD7F0D05138B00D7BF37 /* HIDRemoteControlDevice.h */,
+				3596FD800D05138B00D7BF37 /* HIDRemoteControlDevice.m */,
+				3596FD810D05138B00D7BF37 /* KeyspanFrontRowControl.h */,
+				3596FD820D05138B00D7BF37 /* KeyspanFrontRowControl.m */,
+				3596FD830D05138B00D7BF37 /* MultiClickRemoteBehavior.h */,
+				3596FD840D05138B00D7BF37 /* MultiClickRemoteBehavior.m */,
+				3596FD850D05138B00D7BF37 /* RemoteControl.h */,
+				3596FD860D05138B00D7BF37 /* RemoteControl.m */,
+				3596FD870D05138B00D7BF37 /* RemoteControlContainer.h */,
+				3596FD880D05138B00D7BF37 /* RemoteControlContainer.m */,
+			);
+			path = remote;
+			sourceTree = "<group>";
+		};
+		35EF47FF0D25CAF3003FEB90 /* ShortcutRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				35EF48000D25CAF3003FEB90 /* CTGradient.h */,
+				35EF48010D25CAF3003FEB90 /* CTGradient.m */,
+				35EF48020D25CAF3003FEB90 /* SRCommon.h */,
+				35EF48030D25CAF3003FEB90 /* SRCommon.m */,
+				35EF48040D25CAF3003FEB90 /* SRKeyCodeTransformer.h */,
+				35EF48050D25CAF3003FEB90 /* SRKeyCodeTransformer.m */,
+				35EF48060D25CAF3003FEB90 /* SRRecorderCell.h */,
+				35EF48070D25CAF3003FEB90 /* SRRecorderCell.m */,
+				35EF48080D25CAF3003FEB90 /* SRRecorderControl.h */,
+				35EF48090D25CAF3003FEB90 /* SRRecorderControl.m */,
+				35EF480A0D25CAF3003FEB90 /* SRValidator.h */,
+				35EF480B0D25CAF3003FEB90 /* SRValidator.m */,
+			);
+			name = ShortcutRecorder;
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3586945B0CFB952B00CBDB8D /* Tetris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 358694620CFB952C00CBDB8D /* Build configuration list for PBXNativeTarget "Tetris" */;
+			buildPhases = (
+				358694590CFB952B00CBDB8D /* Sources */,
+				3586945A0CFB952B00CBDB8D /* Frameworks */,
+				358695BB0CFB973900CBDB8D /* CopyFiles */,
+				358695DE0CFB982B00CBDB8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tetris;
+			productName = Tetris;
+			productReference = 3586945C0CFB952B00CBDB8D /* Tetris.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		353E9F860CFB9349007ED77D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 353E9F890CFB9349007ED77D /* Build configuration list for PBXProject "Tetris" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 353E9F840CFB9349007ED77D;
+			productRefGroup = 3586945D0CFB952B00CBDB8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3586945B0CFB952B00CBDB8D /* Tetris */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		358695DE0CFB982B00CBDB8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358695D30CFB982900CBDB8D /* LCDElementsLetter26.tif in Resources */,
+				358695D40CFB982900CBDB8D /* MainMenu.nib in Resources */,
+				358695D50CFB982900CBDB8D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		358694590CFB952B00CBDB8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358695A30CFB96A200CBDB8D /* main.m in Sources */,
+				358695790CFB95D200CBDB8D /* ATAnimation.m in Sources */,
+				3586957B0CFB95D200CBDB8D /* ATAnimationGroup.m in Sources */,
+				358695800CFB95D200CBDB8D /* Controller.m in Sources */,
+				358695830CFB95D200CBDB8D /* ImageUtilities.m in Sources */,
+				358695850CFB95D200CBDB8D /* LCDCell.m in Sources */,
+				358695870CFB95D200CBDB8D /* LCDView.m in Sources */,
+				358695890CFB95D200CBDB8D /* NSImage-Extensions.m in Sources */,
+				3586958C0CFB95D200CBDB8D /* TetrisBlockView.m in Sources */,
+				3586958E0CFB95D200CBDB8D /* TetrisView.m in Sources */,
+				358695900CFB95D200CBDB8D /* TetrisWindow.m in Sources */,
+				358C213B0D002A6A00E4ADC8 /* TetrisTheme.m in Sources */,
+				3596FD890D05138B00D7BF37 /* AppleRemote.m in Sources */,
+				3596FD8A0D05138B00D7BF37 /* GlobalKeyboardDevice.m in Sources */,
+				3596FD8B0D05138B00D7BF37 /* HIDRemoteControlDevice.m in Sources */,
+				3596FD8C0D05138B00D7BF37 /* KeyspanFrontRowControl.m in Sources */,
+				3596FD8D0D05138B00D7BF37 /* MultiClickRemoteBehavior.m in Sources */,
+				3596FD8E0D05138B00D7BF37 /* RemoteControl.m in Sources */,
+				3596FD8F0D05138B00D7BF37 /* RemoteControlContainer.m in Sources */,
+				35EF480C0D25CAF3003FEB90 /* CTGradient.m in Sources */,
+				35EF480D0D25CAF3003FEB90 /* SRCommon.m in Sources */,
+				35EF480E0D25CAF3003FEB90 /* SRKeyCodeTransformer.m in Sources */,
+				35EF480F0D25CAF3003FEB90 /* SRRecorderCell.m in Sources */,
+				35EF48100D25CAF3003FEB90 /* SRRecorderControl.m in Sources */,
+				35EF48110D25CAF3003FEB90 /* SRValidator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3586943A0CFB943900CBDB8D /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3586943B0CFB943900CBDB8D /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		3586943C0CFB943900CBDB8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3586943D0CFB943900CBDB8D /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		353E9F870CFB9349007ED77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_ENABLE_SYMBOL_SEPARATION = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_USE_GCC3_PFE_SUPPORT = YES;
+			};
+			name = Debug;
+		};
+		353E9F880CFB9349007ED77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_SYMBOL_SEPARATION = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_USE_GCC3_PFE_SUPPORT = YES;
+			};
+			name = Release;
+		};
+		358694600CFB952C00CBDB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				HEADER_SEARCH_PATHS = (
+					"/opt/local/include/glib-2.0",
+					"/opt/local/lib/glib-2.0/include",
+					/opt/local/include,
+				);
+				INFOPLIST_FILE = "Tetris-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					/Users/hortont/Desktop/,
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../..\"";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Tetris;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		358694610CFB952C00CBDB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				HEADER_SEARCH_PATHS = (
+					"/opt/local/include/glib-2.0",
+					"/opt/local/lib/glib-2.0/include",
+					/opt/local/include,
+				);
+				INFOPLIST_FILE = "Tetris-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					/Users/hortont/Desktop/,
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../..\"";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Tetris;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		353E9F890CFB9349007ED77D /* Build configuration list for PBXProject "Tetris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353E9F870CFB9349007ED77D /* Debug */,
+				353E9F880CFB9349007ED77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		358694620CFB952C00CBDB8D /* Build configuration list for PBXNativeTarget "Tetris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358694600CFB952C00CBDB8D /* Debug */,
+				358694610CFB952C00CBDB8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 353E9F860CFB9349007ED77D /* Project object */;
+}
